@@ -1,0 +1,18 @@
+.normal {
+  background: #79838F;
+  max-height: 50px;
+  line-height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+              0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.normal a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 20px;
+}

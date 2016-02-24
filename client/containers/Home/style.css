@@ -1,0 +1,36 @@
+.normal {
+  background-color: #2A2A2A;
+  color: white;
+  padding: 20px;
+
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+              0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.normal .name {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+
+}
+
+.normal .projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.normal .projects .project {
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.normal .projects .project:hover {
+  color: #CD0554;
+}
+
+.normal .projects .project :global(.icon) {
+  font-size:100px;
+}

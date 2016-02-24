@@ -1,0 +1,566 @@
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.4em;
+  background: #f5f5f5;
+  color: #4d4d4d;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+
+  margin: 0;
+  padding-top: 50px;
+}
+.style__normal___ZOLf9 {
+  font-size: 30px;
+  line-height: 50px;
+  left: 0;
+  position: absolute;
+  color: white;
+  background-color: #2A2A2A;
+  padding: 20px;
+  border-radius: 20px;
+  margin:0 20px;
+}
+
+.style__normal___ZOLf9:hover {
+  cursor: pointer;
+  background: #CD0554;
+  color: #2A2A2A;
+}.style__normal___auhap {
+  font-size: 30px;
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+  color: white;
+  background-color: #2A2A2A;
+  color: white;
+  background-color: #2A2A2A;
+  padding: 20px;
+  border-radius: 20px;
+  margin:0 20px;
+}
+
+.style__normal___auhap:hover {
+  cursor: pointer;
+  background: #CD0554;
+  color: #2A2A2A;
+}#style__id___3i44X {
+  padding-top: 1px;
+}
+
+ul {
+  padding: 10px;
+}
+
+[id="jj"] {
+  padding-top: 10px;
+}
+
+.style__new___1MSku,
+.style__edit___21OYt {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1.4em;
+  border: 0;
+  outline: none;
+  color: inherit;
+  padding: 6px;
+  border: 1px solid #999;
+  box-shadow: inset 0 -1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+}
+
+.style__new___1MSku {
+  padding: 16px 16px 16px 60px;
+  border: none;
+  background: rgba(0, 0, 0, 0.003);
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+}
+.style__normal___1Q51z .style__toggle___1qmDW {
+  text-align: center;
+  width: 40px;
+  /* auto, since non-WebKit browsers doesn't support input styling */
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  border: none; /* Mobile Safari */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.style__normal___1Q51z .style__toggle___1qmDW:after {
+  content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3"/></svg>');
+}
+
+.style__normal___1Q51z .style__toggle___1qmDW:checked:after {
+  content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#bddad5" stroke-width="3"/><path fill="#5dc2af" d="M72 25L42 71 27 56l-4 4 20 20 34-52z"/></svg>');
+}
+
+.style__normal___1Q51z label {
+  white-space: pre-line;
+  word-break: break-all;
+  padding: 15px 60px 15px 15px;
+  margin-left: 45px;
+  display: block;
+  line-height: 1.2;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+.style__normal___1Q51z .style__destroy___2IRed {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  margin: auto 0;
+  font-size: 30px;
+  color: #cc9a9a;
+  margin-bottom: 11px;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+.style__normal___1Q51z .style__destroy___2IRed:hover {
+  color: #af5b5e;
+}
+
+.style__normal___1Q51z .style__destroy___2IRed:after {
+  content: '\D7';
+}
+
+.style__normal___1Q51z:hover .style__destroy___2IRed {
+  display: block;
+}
+
+.style__normal___1Q51z .style__edit___2HdII {
+  display: none;
+}
+
+.style__editing___2EWh0 {
+  border-bottom: none;
+  padding: 0;
+}
+
+.style__editing___2EWh0:last-child {
+  margin-bottom: -1px;
+}
+
+.style__editing___2EWh0 .style__edit___2HdII {
+  display: block;
+  width: 506px;
+  padding: 13px 17px 12px 17px;
+  margin: 0 0 0 43px;
+}
+
+.style__editing___2EWh0 .style__view___2XJXA {
+  display: none;
+}
+
+.style__completed___Cokm5 label {
+  color: #d9d9d9;
+  text-decoration: line-through;
+}
+
+/*
+  Hack to remove background from Mobile Safari.
+  Can't use it globally since it destroys checkboxes in Firefox
+*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .style__normal___1Q51z .style__toggle___1qmDW {
+    background: none;
+  }
+
+  .style__normal___1Q51z .style__toggle___1qmDW {
+    height: 40px;
+  }
+}
+.style__normal___3FIL- {
+  color: #777;
+  padding: 10px 15px;
+  height: 20px;
+  text-align: center;
+  border-top: 1px solid #e6e6e6;
+}
+
+.style__normal___3FIL-:before {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  overflow: hidden;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+    0 8px 0 -3px #f6f6f6,
+    0 9px 1px -3px rgba(0, 0, 0, 0.2),
+    0 16px 0 -6px #f6f6f6,
+    0 17px 2px -6px rgba(0, 0, 0, 0.2);
+}
+
+.style__filters___1BcvS {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.style__filters___1BcvS li {
+  display: inline;
+}
+
+.style__filters___1BcvS li a {
+  color: inherit;
+  margin: 3px;
+  padding: 3px 7px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.style__filters___1BcvS li a.style__selected___2piwY,
+.style__filters___1BcvS li a:hover {
+  border-color: rgba(175, 47, 47, 0.1);
+}
+
+.style__filters___1BcvS li a.style__selected___2piwY {
+  border-color: rgba(175, 47, 47, 0.2);
+}
+
+.style__count___3khYx {
+  float: left;
+  text-align: left;
+}
+
+.style__count___3khYx strong {
+  font-weight: 300;
+}
+
+.style__clearCompleted___3tf6X,
+html .style__clearCompleted___3tf6X:active {
+  float: right;
+  position: relative;
+  line-height: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  visibility: hidden;
+  position: relative;
+}
+
+.style__clearCompleted___3tf6X::after {
+  visibility: visible;
+  content: 'Clear completed';
+  position: absolute;
+  right: 0;
+  white-space: nowrap;
+}
+
+.style__clearCompleted___3tf6X:hover::after {
+  text-decoration: underline;
+}
+
+@media (max-width: 430px) {
+  .style__normal___3FIL- {
+    height: 50px;
+  }
+
+  .style__filters___1BcvS {
+    bottom: 10px;
+  }
+}
+.style__main___1KuTD {
+  position: relative;
+  z-index: 2;
+  border-top: 1px solid #e6e6e6;
+}
+
+.style__normal___2xC3M {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.style__normal___2xC3M li {
+  position: relative;
+  font-size: 24px;
+  border-bottom: 1px solid #ededed;
+}
+
+.style__normal___2xC3M li:last-child {
+  border-bottom: none;
+}
+
+.style__normal___2xC3M li.style__editing___2erFl {
+  border-bottom: none;
+  padding: 0;
+}
+
+.style__normal___2xC3M li.style__editing___2erFl .style__edit___1i2Hc {
+  display: block;
+  width: 506px;
+  padding: 13px 17px 12px 17px;
+  margin: 0 0 0 43px;
+}
+
+.style__normal___2xC3M li.style__editing___2erFl .style__view___1Rq1x {
+  display: none;
+}
+
+.style__normal___2xC3M li .style__toggle___1DOxo {
+  text-align: center;
+  width: 40px;
+  /* auto, since non-WebKit browsers doesn't support input styling */
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  border: none; /* Mobile Safari */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.style__normal___2xC3M li .style__toggle___1DOxo:after {
+  content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3"/></svg>');
+}
+
+.style__normal___2xC3M li .style__toggle___1DOxo:checked:after {
+  content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#bddad5" stroke-width="3"/><path fill="#5dc2af" d="M72 25L42 71 27 56l-4 4 20 20 34-52z"/></svg>');
+}
+
+.style__normal___2xC3M li label {
+  white-space: pre-line;
+  word-break: break-all;
+  padding: 15px 60px 15px 15px;
+  margin-left: 45px;
+  display: block;
+  line-height: 1.2;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+.style__normal___2xC3M li.style__completed___jfFcc label {
+  color: #d9d9d9;
+  text-decoration: line-through;
+}
+
+.style__normal___2xC3M li .style__destroy___3r8fY {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  margin: auto 0;
+  font-size: 30px;
+  color: #cc9a9a;
+  margin-bottom: 11px;
+  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+.style__normal___2xC3M li .style__destroy___3r8fY:hover {
+  color: #af5b5e;
+}
+
+.style__normal___2xC3M li .style__destroy___3r8fY:after {
+  content: '\D7';
+}
+
+.style__normal___2xC3M li:hover .style__destroy___3r8fY {
+  display: block;
+}
+
+.style__normal___2xC3M li .style__edit___1i2Hc {
+  display: none;
+}
+
+.style__normal___2xC3M li.style__editing___2erFl:last-child {
+  margin-bottom: -1px;
+}
+
+.style__toggleAll___2UwTp {
+  position: absolute;
+  top: -55px;
+  left: -12px;
+  width: 60px;
+  height: 34px;
+  text-align: center;
+  border: none; /* Mobile Safari */
+}
+
+.style__toggleAll___2UwTp:before {
+  content: '\276F';
+  font-size: 22px;
+  color: #e6e6e6;
+  padding: 10px 27px 10px 27px;
+}
+
+.style__toggleAll___2UwTp:checked:before {
+  color: #737373;
+}
+
+/*
+  Hack to remove background from Mobile Safari.
+  Can't use it globally since it destroys checkboxes in Firefox
+*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .style__toggleAll___2UwTp,
+  .style__normal___2xC3M li .style__toggle___1DOxo {
+    background: none;
+  }
+
+  .style__normal___2xC3M li .style__toggle___1DOxo {
+    height: 40px;
+  }
+
+  .style__toggleAll___2UwTp {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  }
+}.style__wrapper___2OxQ0 {
+  padding: 0 20px;
+}
+
+.style__normal___32_Ha {
+  background: #fff;
+  margin: 200px 0 40px 0;
+  position: relative;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+              0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.style__normal___32_Ha input::-webkit-input-placeholder {
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+}
+
+.style__normal___32_Ha input::-moz-placeholder {
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+}
+
+.style__normal___32_Ha input::input-placeholder {
+  font-style: italic;
+  font-weight: 300;
+  color: #e6e6e6;
+}
+
+.style__normal___32_Ha h1 {
+  position: absolute;
+  top: -155px;
+  width: 100%;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(175, 47, 47, 0.15);
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+}
+
+.style__normal___32_Ha button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-smoothing: antialiased;
+}
+
+.style__normal___32_Ha button,
+input[type="checkbox"] {
+  outline: none;
+}
+.style__normal___1htQq {
+  background-color: #2A2A2A;
+  color: white;
+  padding: 20px;
+
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+              0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.style__normal___1htQq .style__name___2jC4j {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+
+}
+
+.style__normal___1htQq .style__projects___G3msr {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.style__normal___1htQq .style__projects___G3msr .style__project___24uaf {
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.style__normal___1htQq .style__projects___G3msr .style__project___24uaf:hover {
+  color: #CD0554;
+}
+
+.style__normal___1htQq .style__projects___G3msr .style__project___24uaf .icon {
+  font-size:100px;
+}.style__normal___hv-au {
+  background: #79838F;
+  max-height: 50px;
+  line-height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+              0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.style__normal___hv-au a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 20px;
+}
