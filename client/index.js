@@ -1,5 +1,6 @@
 
-import { Router, Route, useRouterHistory } from 'react-router'
+import { Router, Route, useRouterHistory, IndexRoute } from 'react-router'
+import { syncHistoryWithStore } from 'react-router-redux'
 import { createHashHistory } from 'history'
 import { Provider } from 'react-redux'
 import ReactDOM from 'react-dom'
@@ -11,18 +12,15 @@ import Todo from './containers/Todo'
 import configure from './store'
 
 const store = configure()
-
-const appHistory = useRouterHistory(createHashHistory)({ queryKey: false })
-
-
-
+const cleanHashHistory = useRouterHistory(createHashHistory)({ queryKey: false })
+const history = syncHistoryWithStore(cleanHashHistory, store)
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router history={appHistory}>
+    <Router history={history}>
       <Route path="/" component={Master}>
-        <Route path="home" component={Home}/>
-        <Route path="about" component={Todo}/>
+        <IndexRoute component={Home}/>
+        <Route path="todo" component={Todo}/>
       </Route>
     </Router>
   </Provider>,

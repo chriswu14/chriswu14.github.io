@@ -21,6 +21,7 @@ export default class Master extends Component {
 
     return (
       <div>
+        <Nav/>
         {this.props.children}
       </div>
     )

@@ -8,7 +8,7 @@ export default class Home extends Component {
       <div> 
         <div className={style.normal}>
           <div className={style.name}>
-            <h1>昊</h1> 
+            This is a boilerplate for setting up single page app using React, Redux and Webpack with both HMR for Dev and Static bundle for production sites, as well with routing
           </div>
           <div className={style.projects}>
             <a href="//github.com/chriswu14/chriswu14.github.io" target="_blank" className={style.project}><i className="icon icon-github"/></a>
