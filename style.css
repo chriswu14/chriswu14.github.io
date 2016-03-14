@@ -12,7 +12,7 @@ body {
   margin: 0;
   padding-top: 50px;
 }
-.style__normal___ZOLf9 {
+.style__normal___3U4EG {
   font-size: 30px;
   line-height: 50px;
   left: 0;
@@ -24,11 +24,11 @@ body {
   margin:0 20px;
 }
 
-.style__normal___ZOLf9:hover {
+.style__normal___3U4EG:hover {
   cursor: pointer;
   background: #CD0554;
   color: #2A2A2A;
-}.style__normal___auhap {
+}.style__normal___iTTVY {
   font-size: 30px;
   line-height: 50px;
   position: absolute;
@@ -42,11 +42,11 @@ body {
   margin:0 20px;
 }
 
-.style__normal___auhap:hover {
+.style__normal___iTTVY:hover {
   cursor: pointer;
   background: #CD0554;
   color: #2A2A2A;
-}#style__id___3i44X {
+}#style__id___1exur {
   padding-top: 1px;
 }
 
@@ -58,8 +58,8 @@ ul {
   padding-top: 10px;
 }
 
-.style__new___1MSku,
-.style__edit___21OYt {
+.style__new___3uTeP,
+.style__edit___oiQLe {
   position: relative;
   margin: 0;
   width: 100%;
@@ -77,13 +77,13 @@ ul {
   font-smoothing: antialiased;
 }
 
-.style__new___1MSku {
+.style__new___3uTeP {
   padding: 16px 16px 16px 60px;
   border: none;
   background: rgba(0, 0, 0, 0.003);
   box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
 }
-.style__normal___1Q51z .style__toggle___1qmDW {
+.style__normal___397BS .style__toggle___1j5yE {
   text-align: center;
   width: 40px;
   /* auto, since non-WebKit browsers doesn't support input styling */
@@ -98,15 +98,15 @@ ul {
           appearance: none;
 }
 
-.style__normal___1Q51z .style__toggle___1qmDW:after {
+.style__normal___397BS .style__toggle___1j5yE:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3"/></svg>');
 }
 
-.style__normal___1Q51z .style__toggle___1qmDW:checked:after {
+.style__normal___397BS .style__toggle___1j5yE:checked:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#bddad5" stroke-width="3"/><path fill="#5dc2af" d="M72 25L42 71 27 56l-4 4 20 20 34-52z"/></svg>');
 }
 
-.style__normal___1Q51z label {
+.style__normal___397BS label {
   white-space: pre-line;
   word-break: break-all;
   padding: 15px 60px 15px 15px;
@@ -117,7 +117,7 @@ ul {
   transition: color 0.4s;
 }
 
-.style__normal___1Q51z .style__destroy___2IRed {
+.style__normal___397BS .style__destroy___3I4dE {
   display: none;
   position: absolute;
   top: 0;
@@ -133,43 +133,43 @@ ul {
   transition: color 0.2s ease-out;
 }
 
-.style__normal___1Q51z .style__destroy___2IRed:hover {
+.style__normal___397BS .style__destroy___3I4dE:hover {
   color: #af5b5e;
 }
 
-.style__normal___1Q51z .style__destroy___2IRed:after {
+.style__normal___397BS .style__destroy___3I4dE:after {
   content: '\D7';
 }
 
-.style__normal___1Q51z:hover .style__destroy___2IRed {
+.style__normal___397BS:hover .style__destroy___3I4dE {
   display: block;
 }
 
-.style__normal___1Q51z .style__edit___2HdII {
+.style__normal___397BS .style__edit___1RaNC {
   display: none;
 }
 
-.style__editing___2EWh0 {
+.style__editing___2PULc {
   border-bottom: none;
   padding: 0;
 }
 
-.style__editing___2EWh0:last-child {
+.style__editing___2PULc:last-child {
   margin-bottom: -1px;
 }
 
-.style__editing___2EWh0 .style__edit___2HdII {
+.style__editing___2PULc .style__edit___1RaNC {
   display: block;
   width: 506px;
   padding: 13px 17px 12px 17px;
   margin: 0 0 0 43px;
 }
 
-.style__editing___2EWh0 .style__view___2XJXA {
+.style__editing___2PULc .style__view___2HqOh {
   display: none;
 }
 
-.style__completed___Cokm5 label {
+.style__completed___118kj label {
   color: #d9d9d9;
   text-decoration: line-through;
 }
@@ -179,15 +179,15 @@ ul {
   Can't use it globally since it destroys checkboxes in Firefox
 */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-  .style__normal___1Q51z .style__toggle___1qmDW {
+  .style__normal___397BS .style__toggle___1j5yE {
     background: none;
   }
 
-  .style__normal___1Q51z .style__toggle___1qmDW {
+  .style__normal___397BS .style__toggle___1j5yE {
     height: 40px;
   }
 }
-.style__normal___3FIL- {
+.style__normal___2NVjP {
   color: #777;
   padding: 10px 15px;
   height: 20px;
@@ -195,7 +195,7 @@ ul {
   border-top: 1px solid #e6e6e6;
 }
 
-.style__normal___3FIL-:before {
+.style__normal___2NVjP:before {
   content: '';
   position: absolute;
   right: 0;
@@ -210,7 +210,7 @@ ul {
     0 17px 2px -6px rgba(0, 0, 0, 0.2);
 }
 
-.style__filters___1BcvS {
+.style__filters___1XtyZ {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -219,11 +219,11 @@ ul {
   left: 0;
 }
 
-.style__filters___1BcvS li {
+.style__filters___1XtyZ li {
   display: inline;
 }
 
-.style__filters___1BcvS li a {
+.style__filters___1XtyZ li a {
   color: inherit;
   margin: 3px;
   padding: 3px 7px;
@@ -232,26 +232,26 @@ ul {
   border-radius: 3px;
 }
 
-.style__filters___1BcvS li a.style__selected___2piwY,
-.style__filters___1BcvS li a:hover {
+.style__filters___1XtyZ li a.style__selected___1cVb1,
+.style__filters___1XtyZ li a:hover {
   border-color: rgba(175, 47, 47, 0.1);
 }
 
-.style__filters___1BcvS li a.style__selected___2piwY {
+.style__filters___1XtyZ li a.style__selected___1cVb1 {
   border-color: rgba(175, 47, 47, 0.2);
 }
 
-.style__count___3khYx {
+.style__count___14dCb {
   float: left;
   text-align: left;
 }
 
-.style__count___3khYx strong {
+.style__count___14dCb strong {
   font-weight: 300;
 }
 
-.style__clearCompleted___3tf6X,
-html .style__clearCompleted___3tf6X:active {
+.style__clearCompleted___1teqF,
+html .style__clearCompleted___1teqF:active {
   float: right;
   position: relative;
   line-height: 20px;
@@ -261,7 +261,7 @@ html .style__clearCompleted___3tf6X:active {
   position: relative;
 }
 
-.style__clearCompleted___3tf6X::after {
+.style__clearCompleted___1teqF::after {
   visibility: visible;
   content: 'Clear completed';
   position: absolute;
@@ -269,58 +269,58 @@ html .style__clearCompleted___3tf6X:active {
   white-space: nowrap;
 }
 
-.style__clearCompleted___3tf6X:hover::after {
+.style__clearCompleted___1teqF:hover::after {
   text-decoration: underline;
 }
 
 @media (max-width: 430px) {
-  .style__normal___3FIL- {
+  .style__normal___2NVjP {
     height: 50px;
   }
 
-  .style__filters___1BcvS {
+  .style__filters___1XtyZ {
     bottom: 10px;
   }
 }
-.style__main___1KuTD {
+.style__main___3M5ao {
   position: relative;
   z-index: 2;
   border-top: 1px solid #e6e6e6;
 }
 
-.style__normal___2xC3M {
+.style__normal___2f_dl {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.style__normal___2xC3M li {
+.style__normal___2f_dl li {
   position: relative;
   font-size: 24px;
   border-bottom: 1px solid #ededed;
 }
 
-.style__normal___2xC3M li:last-child {
+.style__normal___2f_dl li:last-child {
   border-bottom: none;
 }
 
-.style__normal___2xC3M li.style__editing___2erFl {
+.style__normal___2f_dl li.style__editing___2k0W5 {
   border-bottom: none;
   padding: 0;
 }
 
-.style__normal___2xC3M li.style__editing___2erFl .style__edit___1i2Hc {
+.style__normal___2f_dl li.style__editing___2k0W5 .style__edit___1JGBS {
   display: block;
   width: 506px;
   padding: 13px 17px 12px 17px;
   margin: 0 0 0 43px;
 }
 
-.style__normal___2xC3M li.style__editing___2erFl .style__view___1Rq1x {
+.style__normal___2f_dl li.style__editing___2k0W5 .style__view___rfASl {
   display: none;
 }
 
-.style__normal___2xC3M li .style__toggle___1DOxo {
+.style__normal___2f_dl li .style__toggle___ugbx7 {
   text-align: center;
   width: 40px;
   /* auto, since non-WebKit browsers doesn't support input styling */
@@ -335,15 +335,15 @@ html .style__clearCompleted___3tf6X:active {
           appearance: none;
 }
 
-.style__normal___2xC3M li .style__toggle___1DOxo:after {
+.style__normal___2f_dl li .style__toggle___ugbx7:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3"/></svg>');
 }
 
-.style__normal___2xC3M li .style__toggle___1DOxo:checked:after {
+.style__normal___2f_dl li .style__toggle___ugbx7:checked:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#bddad5" stroke-width="3"/><path fill="#5dc2af" d="M72 25L42 71 27 56l-4 4 20 20 34-52z"/></svg>');
 }
 
-.style__normal___2xC3M li label {
+.style__normal___2f_dl li label {
   white-space: pre-line;
   word-break: break-all;
   padding: 15px 60px 15px 15px;
@@ -354,12 +354,12 @@ html .style__clearCompleted___3tf6X:active {
   transition: color 0.4s;
 }
 
-.style__normal___2xC3M li.style__completed___jfFcc label {
+.style__normal___2f_dl li.style__completed___2ISyk label {
   color: #d9d9d9;
   text-decoration: line-through;
 }
 
-.style__normal___2xC3M li .style__destroy___3r8fY {
+.style__normal___2f_dl li .style__destroy___2WNnf {
   display: none;
   position: absolute;
   top: 0;
@@ -375,27 +375,27 @@ html .style__clearCompleted___3tf6X:active {
   transition: color 0.2s ease-out;
 }
 
-.style__normal___2xC3M li .style__destroy___3r8fY:hover {
+.style__normal___2f_dl li .style__destroy___2WNnf:hover {
   color: #af5b5e;
 }
 
-.style__normal___2xC3M li .style__destroy___3r8fY:after {
+.style__normal___2f_dl li .style__destroy___2WNnf:after {
   content: '\D7';
 }
 
-.style__normal___2xC3M li:hover .style__destroy___3r8fY {
+.style__normal___2f_dl li:hover .style__destroy___2WNnf {
   display: block;
 }
 
-.style__normal___2xC3M li .style__edit___1i2Hc {
+.style__normal___2f_dl li .style__edit___1JGBS {
   display: none;
 }
 
-.style__normal___2xC3M li.style__editing___2erFl:last-child {
+.style__normal___2f_dl li.style__editing___2k0W5:last-child {
   margin-bottom: -1px;
 }
 
-.style__toggleAll___2UwTp {
+.style__toggleAll___3n0TX {
   position: absolute;
   top: -55px;
   left: -12px;
@@ -405,14 +405,14 @@ html .style__clearCompleted___3tf6X:active {
   border: none; /* Mobile Safari */
 }
 
-.style__toggleAll___2UwTp:before {
+.style__toggleAll___3n0TX:before {
   content: '\276F';
   font-size: 22px;
   color: #e6e6e6;
   padding: 10px 27px 10px 27px;
 }
 
-.style__toggleAll___2UwTp:checked:before {
+.style__toggleAll___3n0TX:checked:before {
   color: #737373;
 }
 
@@ -421,28 +421,28 @@ html .style__clearCompleted___3tf6X:active {
   Can't use it globally since it destroys checkboxes in Firefox
 */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-  .style__toggleAll___2UwTp,
-  .style__normal___2xC3M li .style__toggle___1DOxo {
+  .style__toggleAll___3n0TX,
+  .style__normal___2f_dl li .style__toggle___ugbx7 {
     background: none;
   }
 
-  .style__normal___2xC3M li .style__toggle___1DOxo {
+  .style__normal___2f_dl li .style__toggle___ugbx7 {
     height: 40px;
   }
 
-  .style__toggleAll___2UwTp {
+  .style__toggleAll___3n0TX {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
   }
-}.style__wrapper___2OxQ0 {
+}.style__wrapper___2Io1o {
   padding: 0 20px;
   line-height: 2em;
 }
 
-.style__normal___32_Ha {
+.style__normal___18IRC {
   background: #fff;
   margin: 200px 0 40px 0;
   position: relative;
@@ -450,25 +450,25 @@ html .style__clearCompleted___3tf6X:active {
               0 25px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
-.style__normal___32_Ha input::-webkit-input-placeholder {
+.style__normal___18IRC input::-webkit-input-placeholder {
   font-style: italic;
   font-weight: 300;
   color: #e6e6e6;
 }
 
-.style__normal___32_Ha input::-moz-placeholder {
+.style__normal___18IRC input::-moz-placeholder {
   font-style: italic;
   font-weight: 300;
   color: #e6e6e6;
 }
 
-.style__normal___32_Ha input::input-placeholder {
+.style__normal___18IRC input::input-placeholder {
   font-style: italic;
   font-weight: 300;
   color: #e6e6e6;
 }
 
-.style__normal___32_Ha h1 {
+.style__normal___18IRC h1 {
   position: absolute;
   top: -155px;
   width: 100%;
@@ -482,7 +482,7 @@ html .style__clearCompleted___3tf6X:active {
   text-rendering: optimizeLegibility;
 }
 
-.style__normal___32_Ha button {
+.style__normal___18IRC button {
   margin: 0;
   padding: 0;
   border: 0;
@@ -498,11 +498,11 @@ html .style__clearCompleted___3tf6X:active {
   font-smoothing: antialiased;
 }
 
-.style__normal___32_Ha button,
+.style__normal___18IRC button,
 input[type="checkbox"] {
   outline: none;
 }
-.style__normal___1htQq {
+.style__normal___3JUB- {
   background-color: #2A2A2A;
   color: white;
   padding: 40px;
@@ -511,14 +511,14 @@ input[type="checkbox"] {
               0 25px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
-.style__normal___1htQq .style__name___2jC4j {
+.style__normal___3JUB- .style__name___1Tg07 {
   text-align: center;
   font-size: 25px;
   line-height: 35px;
   padding: 0 100px;
 }
 
-.style__normal___1htQq .style__projects___G3msr {
+.style__normal___3JUB- .style__projects___3_nTK {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -535,19 +535,19 @@ input[type="checkbox"] {
   padding-top: 40px;
 }
 
-.style__normal___1htQq .style__projects___G3msr .style__project___24uaf {
+.style__normal___3JUB- .style__projects___3_nTK .style__project___3TR7R {
   padding: 0 40px;
   text-decoration: none;
   color: white;
 }
 
-.style__normal___1htQq .style__projects___G3msr .style__project___24uaf:hover {
+.style__normal___3JUB- .style__projects___3_nTK .style__project___3TR7R:hover {
   color: #CD0554;
 }
 
-.style__normal___1htQq .style__projects___G3msr .style__project___24uaf .icon {
+.style__normal___3JUB- .style__projects___3_nTK .style__project___3TR7R .icon {
   font-size: 100px;
-}.style__normal___hv-au {
+}.style__normal___3QOuM {
   background: #79838F;
   max-height: 50px;
   line-height: 50px;
@@ -560,7 +560,7 @@ input[type="checkbox"] {
               0 25px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
-.style__normal___hv-au a {
+.style__normal___3QOuM a {
   color: #ffffff;
   text-decoration: none;
   font-size: 20px;
@@ -568,6 +568,6 @@ input[type="checkbox"] {
   padding-left: 20px;
 }
 
-.style__normal___hv-au a:hover {
+.style__normal___3QOuM a:hover {
   color: #2A2A2A;
 }

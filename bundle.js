@@ -1906,7 +1906,7 @@ webpackJsonp([1],[
 			}
 
 			if (Array.isArray(val)) {
-				return val.slice().sort().map(function (val2) {
+				return val.sort().map(function (val2) {
 					return strictUriEncode(key) + '=' + strictUriEncode(val2);
 				}).join('&');
 			}
@@ -9672,7 +9672,7 @@ webpackJsonp([1],[
 
 	      this.setState({
 	        animating: true,
-	        currentSlide: targetSlide,
+	        currentSlide: currentSlide,
 	        trackStyle: (0, _trackHelper.getTrackAnimateCSS)((0, _objectAssign2['default'])({ left: targetLeft }, this.props, this.state))
 	      }, function () {
 	        _reactLibReactTransitionEvents2['default'].addEndEventListener(_ReactDOM2['default'].findDOMNode(this.refs.track), callback);
@@ -10858,7 +10858,7 @@ webpackJsonp([1],[
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"normal":"style__normal___ZOLf9"};
+	module.exports = {"normal":"style__normal___3U4EG"};
 
 /***/ },
 /* 350 */
@@ -10928,7 +10928,7 @@ webpackJsonp([1],[
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"normal":"style__normal___auhap"};
+	module.exports = {"normal":"style__normal___iTTVY"};
 
 /***/ },
 /* 352 */
@@ -11254,7 +11254,7 @@ webpackJsonp([1],[
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"id":"style__id___3i44X","new":"style__new___1MSku","edit":"style__edit___21OYt"};
+	module.exports = {"id":"style__id___1exur","new":"style__new___3uTeP","edit":"style__edit___oiQLe"};
 
 /***/ },
 /* 357 */
@@ -11646,7 +11646,7 @@ webpackJsonp([1],[
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"normal":"style__normal___1Q51z","toggle":"style__toggle___1qmDW","destroy":"style__destroy___2IRed","edit":"style__edit___2HdII","editing":"style__editing___2EWh0 style__normal___1Q51z","view":"style__view___2XJXA","completed":"style__completed___Cokm5"};
+	module.exports = {"normal":"style__normal___397BS","toggle":"style__toggle___1j5yE","destroy":"style__destroy___3I4dE","edit":"style__edit___1RaNC","editing":"style__editing___2PULc style__normal___397BS","view":"style__view___2HqOh","completed":"style__completed___118kj"};
 
 /***/ },
 /* 365 */
@@ -11811,14 +11811,14 @@ webpackJsonp([1],[
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"normal":"style__normal___3FIL-","filters":"style__filters___1BcvS","selected":"style__selected___2piwY","count":"style__count___3khYx","clearCompleted":"style__clearCompleted___3tf6X"};
+	module.exports = {"normal":"style__normal___2NVjP","filters":"style__filters___1XtyZ","selected":"style__selected___1cVb1","count":"style__count___14dCb","clearCompleted":"style__clearCompleted___1teqF"};
 
 /***/ },
 /* 368 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"main":"style__main___1KuTD","normal":"style__normal___2xC3M","editing":"style__editing___2erFl","edit":"style__edit___1i2Hc","view":"style__view___1Rq1x","toggle":"style__toggle___1DOxo","completed":"style__completed___jfFcc","destroy":"style__destroy___3r8fY","toggleAll":"style__toggleAll___2UwTp"};
+	module.exports = {"main":"style__main___3M5ao","normal":"style__normal___2f_dl","editing":"style__editing___2k0W5","edit":"style__edit___1JGBS","view":"style__view___rfASl","toggle":"style__toggle___ugbx7","completed":"style__completed___2ISyk","destroy":"style__destroy___2WNnf","toggleAll":"style__toggleAll___3n0TX"};
 
 /***/ },
 /* 369 */
@@ -12798,7 +12798,7 @@ webpackJsonp([1],[
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"wrapper":"style__wrapper___2OxQ0","normal":"style__normal___32_Ha"};
+	module.exports = {"wrapper":"style__wrapper___2Io1o","normal":"style__normal___18IRC"};
 
 /***/ },
 /* 383 */
@@ -12866,6 +12866,11 @@ webpackJsonp([1],[
 	            'div',
 	            { className: _style2.default.projects },
 	            _react2.default.createElement(
+	              'button',
+	              { onClick: this.handleClick.bind(this) },
+	              'Click to Route'
+	            ),
+	            _react2.default.createElement(
 	              'a',
 	              { href: '//github.com/chriswu14/chriswu14.github.io', target: '_blank', className: _style2.default.project },
 	              _react2.default.createElement('i', { className: 'icon icon-github' })
@@ -12879,18 +12884,28 @@ webpackJsonp([1],[
 	        )
 	      );
 	    }
+	  }, {
+	    key: 'handleClick',
+	    value: function handleClick() {
+	      this.context.router.push('/todo');
+	    }
 	  }]);
 	  return Home;
 	}(_react.Component);
 
 	exports.default = Home;
 
+
+	Home.contextTypes = {
+	  router: _react2.default.PropTypes.object.isRequired
+	};
+
 /***/ },
 /* 384 */
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"normal":"style__normal___1htQq","name":"style__name___2jC4j","projects":"style__projects___G3msr","project":"style__project___24uaf"};
+	module.exports = {"normal":"style__normal___3JUB-","name":"style__name___1Tg07","projects":"style__projects___3_nTK","project":"style__project___3TR7R"};
 
 /***/ },
 /* 385 */
@@ -12979,7 +12994,7 @@ webpackJsonp([1],[
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"normal":"style__normal___hv-au"};
+	module.exports = {"normal":"style__normal___3QOuM"};
 
 /***/ },
 /* 387 */
@@ -12993,8 +13008,6 @@ webpackJsonp([1],[
 	exports.default = configure;
 
 	var _redux = __webpack_require__(229);
-
-	var _reactRouter = __webpack_require__(1);
 
 	var _middleware = __webpack_require__(388);
 

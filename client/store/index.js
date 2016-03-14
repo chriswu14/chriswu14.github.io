@@ -1,6 +1,5 @@
 
 import { createStore, applyMiddleware } from 'redux'
-import { browserHistory } from 'react-router'
 
 import { loggerMiddleware, thunkMiddleware } from '../middleware'
 import rootReducer from '../reducers'
@@ -12,7 +11,7 @@ export default function configure(initialState) {
 
   const createStoreWithMiddleware = applyMiddleware(
     loggerMiddleware,
-    thunkMiddleware
+    thunkMiddleware,
   )(create)
 
   const store = createStoreWithMiddleware(rootReducer, initialState)
