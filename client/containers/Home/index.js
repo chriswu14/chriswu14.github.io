@@ -21,7 +21,7 @@ export default class Home extends Component {
   }
 
   handleClick() {
-    this.context.router.push('/todo')
+   this.context.router.push('/todo')
   }
 }
 

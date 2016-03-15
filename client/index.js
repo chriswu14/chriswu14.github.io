@@ -9,6 +9,7 @@ import React from 'react'
 import Master from './containers'
 import Home from './containers/Home'
 import Todo from './containers/Todo'
+import Chat from './containers/Chat'
 import configure from './store'
 
 const store = configure()
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Route path="/" component={Master}>
         <IndexRoute component={Home}/>
         <Route path="todo" component={Todo}/>
+        <Route path="chat" component={Chat}/>
       </Route>
     </Router>
   </Provider>,

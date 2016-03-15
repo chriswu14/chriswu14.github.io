@@ -16,6 +16,7 @@ A boilerplate for sigle page app without server routing
 - [x] [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
 - [x] [React Router Redux](https://github.com/reactjs/react-router-redux)
 - [x] TodoMVC example
+- [x] Flux Chat example
 
 ## Setup
 
@@ -23,7 +24,7 @@ A boilerplate for sigle page app without server routing
 $ npm install
 ```
 
-## Run webpack-wev-server
+## Run webpack-dev-server
 
 ```
 $ npm start

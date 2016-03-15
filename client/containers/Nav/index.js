@@ -13,6 +13,7 @@ export default class Nav extends Component {
       <div id="nav" className={style.normal}>
         <Link to='/'>Home</Link>
         <Link to='/todo'>Todo</Link>
+        <Link to='/chat'>Chat</Link>
       </div>
     )
   }
