@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ThreadListItem from '../ThreadListItem'
+import style from './style.css'
 
 export default class ThreadSection extends Component {
 
@@ -26,11 +27,11 @@ export default class ThreadSection extends Component {
     let unread =
       unreadCount === 0 ? null : <span>Unread threads: {unreadCount}</span>
     return (
-      <div className="thread-section">
-        <div className="thread-count">
+      <div className={style.threadSection}>
+        <div className={style.threadCount}>
           {unread}
         </div>
-        <ul className="thread-list">
+        <ul className={style.threadList}>
           {threadListItems}
           </ul>
       </div>

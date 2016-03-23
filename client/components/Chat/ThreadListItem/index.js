@@ -1,6 +1,11 @@
 import * as Actions from '../../../actions/chat'
 import React, { PropTypes } from 'react'
-import classNames from 'classnames'
+import classNames from 'classnames/bind'
+import style from './style.css'
+
+let cx = classNames.bind(style);
+
+console.log(classNames.bind)
 
 class ThreadListItem extends React.Component {
 
@@ -10,16 +15,16 @@ class ThreadListItem extends React.Component {
 
     return (
       <li
-        className={classNames({
-          'thread-list-item': true,
-          'active': thread.id === this.props.currentThreadID
+        className={cx({
+          threadListItem: true,
+          active: thread.id === this.props.currentThreadID
         })}
         onClick={this._onClick.bind(this)}>
-        <h5 className="thread-name">{thread.threadName}</h5>
-        <div className="thread-time">
+        <h5 className={style.threadName}>{thread.threadName}</h5>
+        <div className={style.threadTime}>
           {lastMessage.date.toLocaleTimeString()}
         </div>
-        <div className="thread-last-message">
+        <div className={style.threadLastMessage}>
           {lastMessage.text}
         </div>
       </li>

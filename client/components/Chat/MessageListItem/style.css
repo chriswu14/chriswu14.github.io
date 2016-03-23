@@ -1,0 +1,23 @@
+.message-list-item {
+  list-style: none;
+  padding: 12px 14px 14px;
+}
+
+.message-author-name {
+  color: #66c;
+  float: left;
+  font-size: 13px;
+  margin: 0;
+}
+
+.message-time {
+  color: #aad;
+  float: right;
+  font-size: 12px;
+}
+
+.message-text {
+  clear: both;
+  font-size: 14px;
+  padding-top: 10px;
+}

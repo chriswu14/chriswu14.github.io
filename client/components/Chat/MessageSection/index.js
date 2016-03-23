@@ -1,6 +1,7 @@
 import React from 'react'
 import MessageComposer from '../MessageComposer'
 import MessageListItem from '../MessageListItem'
+import style from './style.css'
 
 export default class MessageSection extends React.Component {
 
@@ -23,9 +24,9 @@ export default class MessageSection extends React.Component {
       })
 
       return (
-        <div className="message-section">
-          <h3 className="message-thread-heading">{currentThread.threadName}</h3>
-          <ul className="message-list" ref="messageList">
+        <div className={style.messageSection}>
+          <h3 className={style.messageThreadHeading}>{currentThread.threadName}</h3>
+          <ul className={style.messageList} ref="messageList">
             {messageListItems}
           </ul>
           <MessageComposer
@@ -35,7 +36,7 @@ export default class MessageSection extends React.Component {
         </div>
       );
     } else {
-      return <div className="message-section"></div>
+      return <div className={style.messageSection}></div>
     }
   }
 

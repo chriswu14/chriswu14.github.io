@@ -572,4 +572,106 @@ input[type="checkbox"] {
 
 .style__normal___3QOuM a:hover {
   color: #2A2A2A;
+}.style__message-composer___1DCO3 {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 14px;
+  height: 5em;
+  width: 100%;
+  margin: 20px 0 0;
+  padding: 10px;
+}
+.style__message-list-item___XvxCW {
+  list-style: none;
+  padding: 12px 14px 14px;
+}
+
+.style__message-author-name___3IF-P {
+  color: #66c;
+  float: left;
+  font-size: 13px;
+  margin: 0;
+}
+
+.style__message-time___V1fwF {
+  color: #aad;
+  float: right;
+  font-size: 12px;
+}
+
+.style__message-text___29PYP {
+  clear: both;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.style__message-section___1WIrX {
+  float: right;
+  width: 65%;
+}
+
+.style__message-thread-heading___fJAEL {
+  height: 40px;
+  margin: 0;
+}
+
+.style__message-list___36aIa {
+  border: 1px solid #ccf;
+  font-size: 16px;
+  height: 400px;
+  margin: 0;
+  overflow-y: auto;
+  padding: 0;
+}.style__thread-list-item___1ZUQF {
+  list-style: none;
+  padding: 12px 14px 14px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.style__thread-list-item___1ZUQF.style__active___2knOM,
+.style__thread-list___2FJ_j:hover .style__thread-list-item___1ZUQF.style__active___2knOM,
+.style__thread-list___2FJ_j:hover .style__thread-list-item___1ZUQF.style__active___2knOM:hover {
+  background-color: #efefff;
+  cursor: default;
+}
+
+.style__thread-name___2h1Wz {
+  color: #66c;
+  float: left;
+  font-size: 13px;
+  margin: 0;
+}
+
+.style__thread-time___RSBy3 {
+  color: #aad;
+  float: right;
+  font-size: 12px;
+}
+
+.style__thread-last-message___18tx4 {
+  clear: both;
+  font-size: 14px;
+  padding-top: 10px;
+}.style__thread-section___dsXwR {
+  float: left;
+  width: 32.5%;
+}
+
+.style__thread-count___B05xr {
+  height: 40px;
+  margin: 0;
+}
+
+.style__thread-list___1W2Lw {
+  border: 1px solid #ccf;
+  font-size: 16px;
+  height: 400px;
+  margin: 0;
+  overflow-y: auto;
+  padding: 0;
+}.style__chatapp___1Gb1S {
+  font-family: 'Muli', 'Helvetica Neue', helvetica, arial;
+  max-width: 760px;
+  margin: 20px auto;
+  overflow: hidden;
 }

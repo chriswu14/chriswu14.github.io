@@ -1,16 +1,17 @@
 import React, { PropTypes } from 'react'
+import style from './style.css'
 
 class MessageListItem extends React.Component {
 
   render() {
     let {message} = this.props
     return (
-      <li className="message-list-item">
-        <h5 className="message-author-name">{message.authorName}</h5>
-        <div className="message-time">
+      <li className={style.messageListItem}>
+        <h5 className={style.messageAuthorName}>{message.authorName}</h5>
+        <div className={style.messageTime}>
           {message.date.toLocaleTimeString()}
         </div>
-        <div className="message-text">{message.text}</div>
+        <div className={style.messageText}>{message.text}</div>
       </li>
     )
   }

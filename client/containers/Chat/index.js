@@ -5,17 +5,18 @@ import * as Actions from '../../actions/chat'
 import MessageSection from '../../components/Chat/MessageSection'
 import ThreadSection from '../../components/Chat/ThreadSection'
 
+import style from './style.css'
+
 class Chat extends Component {
 
   componentDidMount() {
-    this.props.dispatch(Actions.getAllMessages())
+    this.props.actions.getAllMessages()
   }
 
   render() {
-    const { threads, messages, currentThreadID, dispatch } = this.props
-    const actions = bindActionCreators(Actions, dispatch)
+    const { threads, messages, currentThreadID, actions } = this.props
     return (
-      <div className="chatapp">
+      <div className={style.chatapp}>
         <ThreadSection
           threads={threads}
           messages={messages}
@@ -36,7 +37,7 @@ Chat.propTypes = {
   threads: PropTypes.object.isRequired,
   messages: PropTypes.object.isRequired,
   currentThreadID: PropTypes.string,
-  dispatch: PropTypes.func.isRequired
+  actions: PropTypes.object.isRequired
 }
 
 function mapStateToProps(state) {
@@ -47,4 +48,13 @@ function mapStateToProps(state) {
   }
 }
 
-export default connect(mapStateToProps)(Chat)
+function mapDispatchToProps(dispatch) {
+  return {
+    actions: bindActionCreators(Actions, dispatch)
+  }
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+  )(Chat)

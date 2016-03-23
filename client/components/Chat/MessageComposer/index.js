@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react'
+import style from './style.css'
 
 let ENTER_KEY_CODE = 13
 
@@ -12,7 +13,7 @@ class MessageComposer extends React.Component {
   render() {
     return (
       <textarea
-        className="message-composer"
+        className={style.messageComposer}
         name="message"
         value={this.state.text}
         onChange={this._onChange.bind(this)}
