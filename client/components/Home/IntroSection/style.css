@@ -1,0 +1,23 @@
+.intro {
+  background-color: #2A2A2A;
+  color: white;
+  padding: 40px;
+
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+              0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.intro .name {
+  text-align: center;
+  font-size: 25px;
+  line-height: 35px;
+  padding: 0 100px;
+}
+
+.intro .projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 40px;
+}

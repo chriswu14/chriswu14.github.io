@@ -2,8 +2,8 @@
 import React, { Component } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import Header from '../../components/Header'
-import MainSection from '../../components/MainSection'
+import Header from '../../components/Todo/Header'
+import MainSection from '../../components/Todo/MainSection'
 import * as TodoActions from '../../actions/todos'
 import style from './style.css'
 

@@ -1,12 +1,12 @@
 import { ActionTypes } from '../constants/chat'
-import * as ChatExampleDataServer from '../utils/ChatDataServer';
-import * as ChatMessageUtils from '../utils/ChatMessageUtils';
+import * as ChatExampleDataServer from '../utils/ChatDataServer'
+import * as ChatMessageUtils from '../utils/ChatMessageUtils'
 
 export function clickThread(threadID) {
   return {
     type: ActionTypes.CLICK_THREAD,
     threadID: threadID
-  };
+  }
 }
 
 export function createMessage(message) {
@@ -27,14 +27,14 @@ export function receiveCreatedMessage(createdMessage, tempMessageID) {
 export function requestRawMessages() {
   return {
     type: ActionTypes.RAW_MESSAGES_REQUEST
-  };
+  }
 }
 
 export function receiveAll(rawMessages) {
   return {
     type: ActionTypes.RECEIVE_RAW_MESSAGES,
     rawMessages: rawMessages
-  };
+  }
 }
 
 export function getAllMessages() {
@@ -42,16 +42,16 @@ export function getAllMessages() {
     dispatch(requestRawMessages());
     ChatExampleDataServer.getMessages(messages => {
       dispatch(receiveAll(messages));
-    });
-  };
+    })
+  }
 }
 
 export function postNewMessage(text, currentThreadID) {
   return dispatch => {
-    let message = ChatMessageUtils.getCreatedMessageData(text, currentThreadID);
-    dispatch(createMessage(message));
+    let message = ChatMessageUtils.getCreatedMessageData(text, currentThreadID)
+    dispatch(createMessage(message))
     ChatExampleDataServer.postMessage(message, createdMessage => {
-      dispatch(receiveCreatedMessage(createdMessage, message.id));
+      dispatch(receiveCreatedMessage(createdMessage, message.id))
     });
   }
 }

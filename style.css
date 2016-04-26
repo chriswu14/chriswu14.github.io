@@ -1,5 +1,5 @@
 body {
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   background: #f5f5f5;
   color: #4d4d4d;
@@ -12,41 +12,7 @@ body {
   margin: 0;
   padding-top: 50px;
 }
-.style__normal___3U4EG {
-  font-size: 30px;
-  line-height: 50px;
-  left: 0;
-  position: absolute;
-  color: white;
-  background-color: #2A2A2A;
-  padding: 20px;
-  border-radius: 20px;
-  margin:0 20px;
-}
-
-.style__normal___3U4EG:hover {
-  cursor: pointer;
-  background: #CD0554;
-  color: #2A2A2A;
-}.style__normal___iTTVY {
-  font-size: 30px;
-  line-height: 50px;
-  position: absolute;
-  right: 0;
-  color: white;
-  background-color: #2A2A2A;
-  color: white;
-  background-color: #2A2A2A;
-  padding: 20px;
-  border-radius: 20px;
-  margin:0 20px;
-}
-
-.style__normal___iTTVY:hover {
-  cursor: pointer;
-  background: #CD0554;
-  color: #2A2A2A;
-}#style__id___1exur {
+#style__id___Bc5Iq {
   padding-top: 1px;
 }
 
@@ -58,8 +24,8 @@ ul {
   padding-top: 10px;
 }
 
-.style__new___3uTeP,
-.style__edit___oiQLe {
+.style__new___pAHQR,
+.style__edit___HUeOY {
   position: relative;
   margin: 0;
   width: 100%;
@@ -77,13 +43,13 @@ ul {
   font-smoothing: antialiased;
 }
 
-.style__new___3uTeP {
+.style__new___pAHQR {
   padding: 16px 16px 16px 60px;
   border: none;
   background: rgba(0, 0, 0, 0.003);
   box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
 }
-.style__normal___397BS .style__toggle___1j5yE {
+.style__normal___EGTyt .style__toggle___YOr2u {
   text-align: center;
   width: 40px;
   /* auto, since non-WebKit browsers doesn't support input styling */
@@ -98,15 +64,15 @@ ul {
           appearance: none;
 }
 
-.style__normal___397BS .style__toggle___1j5yE:after {
+.style__normal___EGTyt .style__toggle___YOr2u:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3"/></svg>');
 }
 
-.style__normal___397BS .style__toggle___1j5yE:checked:after {
+.style__normal___EGTyt .style__toggle___YOr2u:checked:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#bddad5" stroke-width="3"/><path fill="#5dc2af" d="M72 25L42 71 27 56l-4 4 20 20 34-52z"/></svg>');
 }
 
-.style__normal___397BS label {
+.style__normal___EGTyt label {
   white-space: pre-line;
   word-break: break-all;
   padding: 15px 60px 15px 15px;
@@ -117,7 +83,7 @@ ul {
   transition: color 0.4s;
 }
 
-.style__normal___397BS .style__destroy___3I4dE {
+.style__normal___EGTyt .style__destroy___1BEgp {
   display: none;
   position: absolute;
   top: 0;
@@ -133,43 +99,43 @@ ul {
   transition: color 0.2s ease-out;
 }
 
-.style__normal___397BS .style__destroy___3I4dE:hover {
+.style__normal___EGTyt .style__destroy___1BEgp:hover {
   color: #af5b5e;
 }
 
-.style__normal___397BS .style__destroy___3I4dE:after {
+.style__normal___EGTyt .style__destroy___1BEgp:after {
   content: '\D7';
 }
 
-.style__normal___397BS:hover .style__destroy___3I4dE {
+.style__normal___EGTyt:hover .style__destroy___1BEgp {
   display: block;
 }
 
-.style__normal___397BS .style__edit___1RaNC {
+.style__normal___EGTyt .style__edit___2zKr_ {
   display: none;
 }
 
-.style__editing___2PULc {
+.style__editing___2bxp4 {
   border-bottom: none;
   padding: 0;
 }
 
-.style__editing___2PULc:last-child {
+.style__editing___2bxp4:last-child {
   margin-bottom: -1px;
 }
 
-.style__editing___2PULc .style__edit___1RaNC {
+.style__editing___2bxp4 .style__edit___2zKr_ {
   display: block;
   width: 506px;
   padding: 13px 17px 12px 17px;
   margin: 0 0 0 43px;
 }
 
-.style__editing___2PULc .style__view___2HqOh {
+.style__editing___2bxp4 .style__view___1vhtF {
   display: none;
 }
 
-.style__completed___118kj label {
+.style__completed___1P-Bl label {
   color: #d9d9d9;
   text-decoration: line-through;
 }
@@ -179,15 +145,15 @@ ul {
   Can't use it globally since it destroys checkboxes in Firefox
 */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-  .style__normal___397BS .style__toggle___1j5yE {
+  .style__normal___EGTyt .style__toggle___YOr2u {
     background: none;
   }
 
-  .style__normal___397BS .style__toggle___1j5yE {
+  .style__normal___EGTyt .style__toggle___YOr2u {
     height: 40px;
   }
 }
-.style__normal___2NVjP {
+.style__normal____FCKe {
   color: #777;
   padding: 10px 15px;
   height: 20px;
@@ -195,7 +161,7 @@ ul {
   border-top: 1px solid #e6e6e6;
 }
 
-.style__normal___2NVjP:before {
+.style__normal____FCKe:before {
   content: '';
   position: absolute;
   right: 0;
@@ -210,7 +176,7 @@ ul {
     0 17px 2px -6px rgba(0, 0, 0, 0.2);
 }
 
-.style__filters___1XtyZ {
+.style__filters___Ko9bc {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -219,11 +185,11 @@ ul {
   left: 0;
 }
 
-.style__filters___1XtyZ li {
+.style__filters___Ko9bc li {
   display: inline;
 }
 
-.style__filters___1XtyZ li a {
+.style__filters___Ko9bc li a {
   color: inherit;
   margin: 3px;
   padding: 3px 7px;
@@ -232,26 +198,26 @@ ul {
   border-radius: 3px;
 }
 
-.style__filters___1XtyZ li a.style__selected___1cVb1,
-.style__filters___1XtyZ li a:hover {
+.style__filters___Ko9bc li a.style__selected___3kwpo,
+.style__filters___Ko9bc li a:hover {
   border-color: rgba(175, 47, 47, 0.1);
 }
 
-.style__filters___1XtyZ li a.style__selected___1cVb1 {
+.style__filters___Ko9bc li a.style__selected___3kwpo {
   border-color: rgba(175, 47, 47, 0.2);
 }
 
-.style__count___14dCb {
+.style__count___2OS0R {
   float: left;
   text-align: left;
 }
 
-.style__count___14dCb strong {
+.style__count___2OS0R strong {
   font-weight: 300;
 }
 
-.style__clearCompleted___1teqF,
-html .style__clearCompleted___1teqF:active {
+.style__clearCompleted___2jEgG,
+html .style__clearCompleted___2jEgG:active {
   float: right;
   position: relative;
   line-height: 20px;
@@ -261,7 +227,7 @@ html .style__clearCompleted___1teqF:active {
   position: relative;
 }
 
-.style__clearCompleted___1teqF::after {
+.style__clearCompleted___2jEgG::after {
   visibility: visible;
   content: 'Clear completed';
   position: absolute;
@@ -269,58 +235,58 @@ html .style__clearCompleted___1teqF:active {
   white-space: nowrap;
 }
 
-.style__clearCompleted___1teqF:hover::after {
+.style__clearCompleted___2jEgG:hover::after {
   text-decoration: underline;
 }
 
 @media (max-width: 430px) {
-  .style__normal___2NVjP {
+  .style__normal____FCKe {
     height: 50px;
   }
 
-  .style__filters___1XtyZ {
+  .style__filters___Ko9bc {
     bottom: 10px;
   }
 }
-.style__main___3M5ao {
+.style__main___1JYQL {
   position: relative;
   z-index: 2;
   border-top: 1px solid #e6e6e6;
 }
 
-.style__normal___2f_dl {
+.style__normal___d-dTj {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.style__normal___2f_dl li {
+.style__normal___d-dTj li {
   position: relative;
   font-size: 24px;
   border-bottom: 1px solid #ededed;
 }
 
-.style__normal___2f_dl li:last-child {
+.style__normal___d-dTj li:last-child {
   border-bottom: none;
 }
 
-.style__normal___2f_dl li.style__editing___2k0W5 {
+.style__normal___d-dTj li.style__editing___2vW1p {
   border-bottom: none;
   padding: 0;
 }
 
-.style__normal___2f_dl li.style__editing___2k0W5 .style__edit___1JGBS {
+.style__normal___d-dTj li.style__editing___2vW1p .style__edit___2Wv6p {
   display: block;
   width: 506px;
   padding: 13px 17px 12px 17px;
   margin: 0 0 0 43px;
 }
 
-.style__normal___2f_dl li.style__editing___2k0W5 .style__view___rfASl {
+.style__normal___d-dTj li.style__editing___2vW1p .style__view___2YRGD {
   display: none;
 }
 
-.style__normal___2f_dl li .style__toggle___ugbx7 {
+.style__normal___d-dTj li .style__toggle___3E01W {
   text-align: center;
   width: 40px;
   /* auto, since non-WebKit browsers doesn't support input styling */
@@ -335,15 +301,15 @@ html .style__clearCompleted___1teqF:active {
           appearance: none;
 }
 
-.style__normal___2f_dl li .style__toggle___ugbx7:after {
+.style__normal___d-dTj li .style__toggle___3E01W:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3"/></svg>');
 }
 
-.style__normal___2f_dl li .style__toggle___ugbx7:checked:after {
+.style__normal___d-dTj li .style__toggle___3E01W:checked:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#bddad5" stroke-width="3"/><path fill="#5dc2af" d="M72 25L42 71 27 56l-4 4 20 20 34-52z"/></svg>');
 }
 
-.style__normal___2f_dl li label {
+.style__normal___d-dTj li label {
   white-space: pre-line;
   word-break: break-all;
   padding: 15px 60px 15px 15px;
@@ -354,12 +320,12 @@ html .style__clearCompleted___1teqF:active {
   transition: color 0.4s;
 }
 
-.style__normal___2f_dl li.style__completed___2ISyk label {
+.style__normal___d-dTj li.style__completed___1v838 label {
   color: #d9d9d9;
   text-decoration: line-through;
 }
 
-.style__normal___2f_dl li .style__destroy___2WNnf {
+.style__normal___d-dTj li .style__destroy___EhTjG {
   display: none;
   position: absolute;
   top: 0;
@@ -375,27 +341,27 @@ html .style__clearCompleted___1teqF:active {
   transition: color 0.2s ease-out;
 }
 
-.style__normal___2f_dl li .style__destroy___2WNnf:hover {
+.style__normal___d-dTj li .style__destroy___EhTjG:hover {
   color: #af5b5e;
 }
 
-.style__normal___2f_dl li .style__destroy___2WNnf:after {
+.style__normal___d-dTj li .style__destroy___EhTjG:after {
   content: '\D7';
 }
 
-.style__normal___2f_dl li:hover .style__destroy___2WNnf {
+.style__normal___d-dTj li:hover .style__destroy___EhTjG {
   display: block;
 }
 
-.style__normal___2f_dl li .style__edit___1JGBS {
+.style__normal___d-dTj li .style__edit___2Wv6p {
   display: none;
 }
 
-.style__normal___2f_dl li.style__editing___2k0W5:last-child {
+.style__normal___d-dTj li.style__editing___2vW1p:last-child {
   margin-bottom: -1px;
 }
 
-.style__toggleAll___3n0TX {
+.style__toggleAll___iL85w {
   position: absolute;
   top: -55px;
   left: -12px;
@@ -405,14 +371,14 @@ html .style__clearCompleted___1teqF:active {
   border: none; /* Mobile Safari */
 }
 
-.style__toggleAll___3n0TX:before {
+.style__toggleAll___iL85w:before {
   content: '\276F';
   font-size: 22px;
   color: #e6e6e6;
   padding: 10px 27px 10px 27px;
 }
 
-.style__toggleAll___3n0TX:checked:before {
+.style__toggleAll___iL85w:checked:before {
   color: #737373;
 }
 
@@ -421,16 +387,16 @@ html .style__clearCompleted___1teqF:active {
   Can't use it globally since it destroys checkboxes in Firefox
 */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-  .style__toggleAll___3n0TX,
-  .style__normal___2f_dl li .style__toggle___ugbx7 {
+  .style__toggleAll___iL85w,
+  .style__normal___d-dTj li .style__toggle___3E01W {
     background: none;
   }
 
-  .style__normal___2f_dl li .style__toggle___ugbx7 {
+  .style__normal___d-dTj li .style__toggle___3E01W {
     height: 40px;
   }
 
-  .style__toggleAll___3n0TX {
+  .style__toggleAll___iL85w {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     -webkit-appearance: none;
@@ -502,7 +468,7 @@ html .style__clearCompleted___1teqF:active {
 input[type="checkbox"] {
   outline: none;
 }
-.style__normal___3JUB- {
+.style__intro___KTRGA {
   background-color: #2A2A2A;
   color: white;
   padding: 40px;
@@ -511,14 +477,14 @@ input[type="checkbox"] {
               0 25px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
-.style__normal___3JUB- .style__name___1Tg07 {
+.style__intro___KTRGA .style__name___21l2P {
   text-align: center;
   font-size: 25px;
   line-height: 35px;
   padding: 0 100px;
 }
 
-.style__normal___3JUB- .style__projects___3_nTK {
+.style__intro___KTRGA .style__projects___Znknp {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -533,19 +499,29 @@ input[type="checkbox"] {
           justify-content: center;
   width: 100%;
   padding-top: 40px;
-}
-
-.style__normal___3JUB- .style__projects___3_nTK .style__project___3TR7R {
+}.style__project___1ZYO2 {
   padding: 0 40px;
   text-decoration: none;
   color: white;
 }
 
-.style__normal___3JUB- .style__projects___3_nTK .style__project___3TR7R:hover {
+.style__project___1ZYO2:hover {
   color: #CD0554;
 }
 
-.style__normal___3JUB- .style__projects___3_nTK .style__project___3TR7R .icon {
+.style__project___1ZYO2 .icon {
+  font-size: 100px;
+}.style__project___2CgyR {
+  padding: 0 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.style__project___2CgyR:hover {
+  color: #CD0554;
+}
+
+.style__project___2CgyR .icon {
   font-size: 100px;
 }.style__normal___3QOuM {
   background: #79838F;

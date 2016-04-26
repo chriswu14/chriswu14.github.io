@@ -5,11 +5,13 @@ import todos from './todos'
 import currentThreadID from './currentThreadID'
 import messages from './messages'
 import threads from './threads'
+import blog from './blog'
 
 export default combineReducers({
   routing: routerReducer,
   todos,
   currentThreadID,
   messages,
-  threads
+  threads,
+  blog
 })

@@ -1,0 +1,13 @@
+.project {
+  padding: 0 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.project:hover {
+  color: #CD0554;
+}
+
+.project :global(.icon) {
+  font-size: 100px;
+}
