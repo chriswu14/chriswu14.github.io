@@ -1,0 +1,20 @@
+.normal {
+
+}
+
+.title {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+}
+
+.date {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: rgba(0,0,0,.44);
+}
+
+.content {
+  font-family: 'lora';
+}

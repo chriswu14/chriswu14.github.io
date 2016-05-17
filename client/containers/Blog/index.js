@@ -15,8 +15,8 @@ export default class Blog extends Component {
   render() {
     const { blog } = this.props
     return (
-      <div className={style.normal}>
-        <BlogSection blogEntries={blog.items} />
+      <div className={style.normal}>        
+        <BlogSection blogEntries={blog.items} />        
       </div>
     )
   }

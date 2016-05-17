@@ -7,10 +7,10 @@ export default class BlogEntry extends Component {
     const { entry } = this.props
     let bodyHTML = {__html: marked(entry.fields.body)}
     return (
-      <div>
-        <div>{entry.fields.title}</div>
-        <div dangerouslySetInnerHTML={bodyHTML} />
-        <div>{entry.fields.date}</div>
+      <div className={style.normal}>
+        <div className={style.title}>{entry.fields.title}</div>
+        <div className={style.date}>{entry.fields.date}</div>
+        <div className={style.content} dangerouslySetInnerHTML={bodyHTML} />        
       </div>
     )          
   }

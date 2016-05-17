@@ -1,8 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  background: #f5f5f5;
-  color: #4d4d4d;
+  font-weight: 400;
+  font-size: 20px;
+
 
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -468,7 +468,28 @@ html .style__clearCompleted___2jEgG:active {
 input[type="checkbox"] {
   outline: none;
 }
-.style__intro___KTRGA {
+.style__normal___2eBGt {
+  padding-top: 30px;
+}.style__normal___2vCc9 {
+
+}
+
+.style__title___2Sh_Z {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+}
+
+.style__date___1k-zN {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: rgba(0,0,0,.44);
+}
+
+.style__content___1Bb26 {
+  font-family: 'lora';
+}.style__intro___KTRGA {
   background-color: #2A2A2A;
   color: white;
   padding: 40px;
@@ -479,7 +500,7 @@ input[type="checkbox"] {
 
 .style__intro___KTRGA .style__name___21l2P {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 35px;
   padding: 0 100px;
 }
@@ -539,7 +560,6 @@ input[type="checkbox"] {
 .style__normal___3QOuM a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 20px;
   line-height: 50px;
   padding-left: 20px;
   -webkit-transition: color 1s;

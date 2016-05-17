@@ -46,6 +46,7 @@
   "dependencies": {
     "contentful": "^3.3.0",
     "marked": "^0.3.5",
+    "react-motion": "^0.4.3",
     "react-slick": "^0.11.0"
   }
 }

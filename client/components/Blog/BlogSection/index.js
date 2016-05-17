@@ -7,12 +7,18 @@ export default class BlogSection extends Component {
   render() {
     const { blogEntries } = this.props
     return (
-      <div>
-        {
-          blogEntries.map((entry, index) => {
-            return <BlogEntry key={index} entry={entry}/>            
-          })
-        }
+      <div className="row">
+        <div className="col-sm-2">
+        </div>
+        <div className="col-sm-8">
+          {
+            blogEntries.map((entry, index) => {
+              return <BlogEntry key={index} entry={entry}/>            
+            })
+          }
+        </div>
+        <div className="col-sm-2">
+        </div>
       </div>
     )          
   }
