@@ -34406,7 +34406,7 @@ webpackJsonp([1],[
 	      return _react2.default.createElement(
 	        'a',
 	        { href: '//github.com/chriswu14/chriswu14.github.io', target: '_blank', className: _style2.default.project },
-	        _react2.default.createElement('i', { className: 'icon icon-github' })
+	        _react2.default.createElement('i', { style: this.props.linkStyle, className: 'icon icon-github' })
 	      );
 	    }
 	  }]);
@@ -34476,7 +34476,7 @@ webpackJsonp([1],[
 	      return _react2.default.createElement(
 	        'a',
 	        { href: '//au.linkedin.com/in/chriswu14', target: '_blank', className: _style2.default.project },
-	        _react2.default.createElement('i', { className: 'icon icon-linkedin' })
+	        _react2.default.createElement('i', { style: this.props.linkStyle, className: 'icon icon-linkedin' })
 	      );
 	    }
 	  }]);
@@ -34530,6 +34530,14 @@ webpackJsonp([1],[
 
 	var _reactMotion = __webpack_require__(867);
 
+	var _GithubIconLink = __webpack_require__(862);
+
+	var _GithubIconLink2 = _interopRequireDefault(_GithubIconLink);
+
+	var _LinkedinIconLink = __webpack_require__(864);
+
+	var _LinkedinIconLink2 = _interopRequireDefault(_LinkedinIconLink);
+
 	var _style = __webpack_require__(881);
 
 	var _style2 = _interopRequireDefault(_style);
@@ -34561,6 +34569,8 @@ webpackJsonp([1],[
 	  }, {
 	    key: 'render',
 	    value: function render() {
+	      var stiffness = 150;
+	      var damping = 26;
 	      return _react2.default.createElement(
 	        'div',
 	        { className: _style2.default.normal },
@@ -34579,16 +34589,22 @@ webpackJsonp([1],[
 	          { to: '/chat' },
 	          'Chat'
 	        ),
-	        this.state.size,
 	        _react2.default.createElement(
 	          _reactMotion.Motion,
-	          { style: { x: (0, _reactMotion.spring)(this.state.size) } },
+	          { style: { x: (0, _reactMotion.spring)(this.state.size, { stiffness: stiffness, damping: damping }) } },
 	          function (_ref) {
 	            var x = _ref.x;
+
+	            var visibilityStyle = { display: 'inline-block' };
+	            if (x == 0) {
+	              visibilityStyle.display = 'none';
+	            }
+
 	            return _react2.default.createElement(
 	              'div',
-	              { style: { fontSize: x } },
-	              'FONT'
+	              { style: visibilityStyle },
+	              _react2.default.createElement(_GithubIconLink2.default, { linkStyle: { fontSize: x, position: 'absolute', lineHeight: '50px' } }),
+	              _react2.default.createElement(_LinkedinIconLink2.default, { linkStyle: { fontSize: x, position: 'absolute', lineHeight: '50px' } })
 	            );
 	          }
 	        )
@@ -34596,9 +34612,18 @@ webpackJsonp([1],[
 	    }
 	  }, {
 	    key: 'scrollListener',
-	    value: function scrollListener() {
-	      this.setState({ size: this.state.size + 1 });
-	      console.log(this.state.size);
+	    value: function scrollListener(e) {
+	      var offset = window.pageYOffset - 200;
+
+	      if (offset > 30) {
+	        offset = 30;
+	      }
+
+	      if (offset < 0) {
+	        offset = 0;
+	      }
+
+	      this.setState({ size: offset });
 	    }
 	  }, {
 	    key: 'attachScrollListener',
@@ -36093,7 +36118,7 @@ webpackJsonp([1],[
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
-	module.exports = {"normal":"style__normal___3QOuM"};
+	module.exports = {"normal":"style__normal___3QOuM","social":"style__social___15Jg9"};
 
 /***/ },
 /* 882 */

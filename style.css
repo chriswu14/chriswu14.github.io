@@ -12,6 +12,11 @@ body {
   margin: 0;
   padding-top: 50px;
 }
+
+body a {
+  text-decoration: none;
+  outline: none;
+}
 #style__id___Bc5Iq {
   padding-top: 1px;
 }
@@ -559,15 +564,19 @@ input[type="checkbox"] {
 
 .style__normal___3QOuM a {
   color: #ffffff;
-  text-decoration: none;
   line-height: 50px;
   padding-left: 20px;
   -webkit-transition: color 1s;
   transition: color 1s;
+  font-weight: 700;
 }
 
 .style__normal___3QOuM a:hover {
   color: #2A2A2A;
+}
+
+div.style__social___15Jg9 {
+  display: inline-block;
 }.style__message-composer___1DCO3 {
   box-sizing: border-box;
   font-family: inherit;

@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router'
 import { Motion, spring } from 'react-motion';
+import GithubIconLink from '../../components/Home/GithubIconLink'
+import LinkedinIconLink from '../../components/Home/LinkedinIconLink'
 
 
 import style from './style.css'
@@ -20,28 +22,44 @@ export default class Nav extends Component {
   }
 
   render() {
-    return (
+    const stiffness = 150
+    const damping = 26
+    return (     
       <div className={style.normal}>
         <Link to='/'>Home</Link>
         <Link to='/todo'>Todo</Link>
         <Link to='/chat'>Chat</Link>
-        {this.state.size}
+        <Motion style={{x: spring(this.state.size, {stiffness, damping})}}>
+          {({x}) => {
+            let visibilityStyle = {display: 'inline-block'}
+            if(x == 0) {
+              visibilityStyle.display = 'none'
+            }
 
-        <Motion style={{x: spring(this.state.size)}}>
-          {({x}) =>
-            <div style={{fontSize: x}}>
-              FONT
-            </div>
+            return (            
+              <div style={visibilityStyle}>
+                <GithubIconLink linkStyle={{fontSize: x,  position: 'absolute', lineHeight: '50px'}}/>
+                <LinkedinIconLink linkStyle={{fontSize: x, position: 'absolute', lineHeight: '50px'}}/>
+              </div>
+            )}
           }
-        </Motion>
-
+        </Motion>        
       </div>
     )
   }
 
-  scrollListener() {
-    this.setState({size: this.state.size + 1})
-    console.log(this.state.size)
+  scrollListener(e) {
+    let offset = window.pageYOffset - 200
+
+    if(offset > 30) {
+      offset = 30
+    }
+
+    if(offset < 0) {
+      offset = 0
+    }
+
+    this.setState({size: offset})
   }
 
   attachScrollListener() {
