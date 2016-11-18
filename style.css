@@ -17,7 +17,7 @@ body a {
   text-decoration: none;
   outline: none;
 }
-#style__id___Bc5Iq {
+#style__id___3qJcA {
   padding-top: 1px;
 }
 
@@ -29,8 +29,8 @@ ul {
   padding-top: 10px;
 }
 
-.style__new___pAHQR,
-.style__edit___HUeOY {
+.style__new___31eOD,
+.style__edit___2sh3q {
   position: relative;
   margin: 0;
   width: 100%;
@@ -48,13 +48,13 @@ ul {
   font-smoothing: antialiased;
 }
 
-.style__new___pAHQR {
+.style__new___31eOD {
   padding: 16px 16px 16px 60px;
   border: none;
   background: rgba(0, 0, 0, 0.003);
   box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
 }
-.style__normal___EGTyt .style__toggle___YOr2u {
+.style__normal___1vX1q .style__toggle___21nT- {
   text-align: center;
   width: 40px;
   /* auto, since non-WebKit browsers doesn't support input styling */
@@ -69,15 +69,15 @@ ul {
           appearance: none;
 }
 
-.style__normal___EGTyt .style__toggle___YOr2u:after {
+.style__normal___1vX1q .style__toggle___21nT-:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3"/></svg>');
 }
 
-.style__normal___EGTyt .style__toggle___YOr2u:checked:after {
+.style__normal___1vX1q .style__toggle___21nT-:checked:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#bddad5" stroke-width="3"/><path fill="#5dc2af" d="M72 25L42 71 27 56l-4 4 20 20 34-52z"/></svg>');
 }
 
-.style__normal___EGTyt label {
+.style__normal___1vX1q label {
   white-space: pre-line;
   word-break: break-all;
   padding: 15px 60px 15px 15px;
@@ -88,7 +88,7 @@ ul {
   transition: color 0.4s;
 }
 
-.style__normal___EGTyt .style__destroy___1BEgp {
+.style__normal___1vX1q .style__destroy___2Gh_5 {
   display: none;
   position: absolute;
   top: 0;
@@ -104,43 +104,43 @@ ul {
   transition: color 0.2s ease-out;
 }
 
-.style__normal___EGTyt .style__destroy___1BEgp:hover {
+.style__normal___1vX1q .style__destroy___2Gh_5:hover {
   color: #af5b5e;
 }
 
-.style__normal___EGTyt .style__destroy___1BEgp:after {
+.style__normal___1vX1q .style__destroy___2Gh_5:after {
   content: '\D7';
 }
 
-.style__normal___EGTyt:hover .style__destroy___1BEgp {
+.style__normal___1vX1q:hover .style__destroy___2Gh_5 {
   display: block;
 }
 
-.style__normal___EGTyt .style__edit___2zKr_ {
+.style__normal___1vX1q .style__edit___NwBgb {
   display: none;
 }
 
-.style__editing___2bxp4 {
+.style__editing___7lhFU {
   border-bottom: none;
   padding: 0;
 }
 
-.style__editing___2bxp4:last-child {
+.style__editing___7lhFU:last-child {
   margin-bottom: -1px;
 }
 
-.style__editing___2bxp4 .style__edit___2zKr_ {
+.style__editing___7lhFU .style__edit___NwBgb {
   display: block;
   width: 506px;
   padding: 13px 17px 12px 17px;
   margin: 0 0 0 43px;
 }
 
-.style__editing___2bxp4 .style__view___1vhtF {
+.style__editing___7lhFU .style__view___1G_tr {
   display: none;
 }
 
-.style__completed___1P-Bl label {
+.style__completed___27SbN label {
   color: #d9d9d9;
   text-decoration: line-through;
 }
@@ -150,15 +150,15 @@ ul {
   Can't use it globally since it destroys checkboxes in Firefox
 */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-  .style__normal___EGTyt .style__toggle___YOr2u {
+  .style__normal___1vX1q .style__toggle___21nT- {
     background: none;
   }
 
-  .style__normal___EGTyt .style__toggle___YOr2u {
+  .style__normal___1vX1q .style__toggle___21nT- {
     height: 40px;
   }
 }
-.style__normal____FCKe {
+.style__normal___1QsZ6 {
   color: #777;
   padding: 10px 15px;
   height: 20px;
@@ -166,7 +166,7 @@ ul {
   border-top: 1px solid #e6e6e6;
 }
 
-.style__normal____FCKe:before {
+.style__normal___1QsZ6:before {
   content: '';
   position: absolute;
   right: 0;
@@ -181,7 +181,7 @@ ul {
     0 17px 2px -6px rgba(0, 0, 0, 0.2);
 }
 
-.style__filters___Ko9bc {
+.style__filters___2kFuI {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -190,11 +190,11 @@ ul {
   left: 0;
 }
 
-.style__filters___Ko9bc li {
+.style__filters___2kFuI li {
   display: inline;
 }
 
-.style__filters___Ko9bc li a {
+.style__filters___2kFuI li a {
   color: inherit;
   margin: 3px;
   padding: 3px 7px;
@@ -203,26 +203,26 @@ ul {
   border-radius: 3px;
 }
 
-.style__filters___Ko9bc li a.style__selected___3kwpo,
-.style__filters___Ko9bc li a:hover {
+.style__filters___2kFuI li a.style__selected___3UOa8,
+.style__filters___2kFuI li a:hover {
   border-color: rgba(175, 47, 47, 0.1);
 }
 
-.style__filters___Ko9bc li a.style__selected___3kwpo {
+.style__filters___2kFuI li a.style__selected___3UOa8 {
   border-color: rgba(175, 47, 47, 0.2);
 }
 
-.style__count___2OS0R {
+.style__count___2qAZG {
   float: left;
   text-align: left;
 }
 
-.style__count___2OS0R strong {
+.style__count___2qAZG strong {
   font-weight: 300;
 }
 
-.style__clearCompleted___2jEgG,
-html .style__clearCompleted___2jEgG:active {
+.style__clearCompleted___2FvEh,
+html .style__clearCompleted___2FvEh:active {
   float: right;
   position: relative;
   line-height: 20px;
@@ -232,7 +232,7 @@ html .style__clearCompleted___2jEgG:active {
   position: relative;
 }
 
-.style__clearCompleted___2jEgG::after {
+.style__clearCompleted___2FvEh::after {
   visibility: visible;
   content: 'Clear completed';
   position: absolute;
@@ -240,58 +240,58 @@ html .style__clearCompleted___2jEgG:active {
   white-space: nowrap;
 }
 
-.style__clearCompleted___2jEgG:hover::after {
+.style__clearCompleted___2FvEh:hover::after {
   text-decoration: underline;
 }
 
 @media (max-width: 430px) {
-  .style__normal____FCKe {
+  .style__normal___1QsZ6 {
     height: 50px;
   }
 
-  .style__filters___Ko9bc {
+  .style__filters___2kFuI {
     bottom: 10px;
   }
 }
-.style__main___1JYQL {
+.style__main___2A7Br {
   position: relative;
   z-index: 2;
   border-top: 1px solid #e6e6e6;
 }
 
-.style__normal___d-dTj {
+.style__normal___B0urv {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.style__normal___d-dTj li {
+.style__normal___B0urv li {
   position: relative;
   font-size: 24px;
   border-bottom: 1px solid #ededed;
 }
 
-.style__normal___d-dTj li:last-child {
+.style__normal___B0urv li:last-child {
   border-bottom: none;
 }
 
-.style__normal___d-dTj li.style__editing___2vW1p {
+.style__normal___B0urv li.style__editing___32XEf {
   border-bottom: none;
   padding: 0;
 }
 
-.style__normal___d-dTj li.style__editing___2vW1p .style__edit___2Wv6p {
+.style__normal___B0urv li.style__editing___32XEf .style__edit___2tiJg {
   display: block;
   width: 506px;
   padding: 13px 17px 12px 17px;
   margin: 0 0 0 43px;
 }
 
-.style__normal___d-dTj li.style__editing___2vW1p .style__view___2YRGD {
+.style__normal___B0urv li.style__editing___32XEf .style__view___1rXqF {
   display: none;
 }
 
-.style__normal___d-dTj li .style__toggle___3E01W {
+.style__normal___B0urv li .style__toggle___2BC1l {
   text-align: center;
   width: 40px;
   /* auto, since non-WebKit browsers doesn't support input styling */
@@ -306,15 +306,15 @@ html .style__clearCompleted___2jEgG:active {
           appearance: none;
 }
 
-.style__normal___d-dTj li .style__toggle___3E01W:after {
+.style__normal___B0urv li .style__toggle___2BC1l:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3"/></svg>');
 }
 
-.style__normal___d-dTj li .style__toggle___3E01W:checked:after {
+.style__normal___B0urv li .style__toggle___2BC1l:checked:after {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135"><circle cx="50" cy="50" r="50" fill="none" stroke="#bddad5" stroke-width="3"/><path fill="#5dc2af" d="M72 25L42 71 27 56l-4 4 20 20 34-52z"/></svg>');
 }
 
-.style__normal___d-dTj li label {
+.style__normal___B0urv li label {
   white-space: pre-line;
   word-break: break-all;
   padding: 15px 60px 15px 15px;
@@ -325,12 +325,12 @@ html .style__clearCompleted___2jEgG:active {
   transition: color 0.4s;
 }
 
-.style__normal___d-dTj li.style__completed___1v838 label {
+.style__normal___B0urv li.style__completed___2HQUX label {
   color: #d9d9d9;
   text-decoration: line-through;
 }
 
-.style__normal___d-dTj li .style__destroy___EhTjG {
+.style__normal___B0urv li .style__destroy___2E_e6 {
   display: none;
   position: absolute;
   top: 0;
@@ -346,27 +346,27 @@ html .style__clearCompleted___2jEgG:active {
   transition: color 0.2s ease-out;
 }
 
-.style__normal___d-dTj li .style__destroy___EhTjG:hover {
+.style__normal___B0urv li .style__destroy___2E_e6:hover {
   color: #af5b5e;
 }
 
-.style__normal___d-dTj li .style__destroy___EhTjG:after {
+.style__normal___B0urv li .style__destroy___2E_e6:after {
   content: '\D7';
 }
 
-.style__normal___d-dTj li:hover .style__destroy___EhTjG {
+.style__normal___B0urv li:hover .style__destroy___2E_e6 {
   display: block;
 }
 
-.style__normal___d-dTj li .style__edit___2Wv6p {
+.style__normal___B0urv li .style__edit___2tiJg {
   display: none;
 }
 
-.style__normal___d-dTj li.style__editing___2vW1p:last-child {
+.style__normal___B0urv li.style__editing___32XEf:last-child {
   margin-bottom: -1px;
 }
 
-.style__toggleAll___iL85w {
+.style__toggleAll___32oUm {
   position: absolute;
   top: -55px;
   left: -12px;
@@ -376,14 +376,14 @@ html .style__clearCompleted___2jEgG:active {
   border: none; /* Mobile Safari */
 }
 
-.style__toggleAll___iL85w:before {
+.style__toggleAll___32oUm:before {
   content: '\276F';
   font-size: 22px;
   color: #e6e6e6;
   padding: 10px 27px 10px 27px;
 }
 
-.style__toggleAll___iL85w:checked:before {
+.style__toggleAll___32oUm:checked:before {
   color: #737373;
 }
 
@@ -392,28 +392,28 @@ html .style__clearCompleted___2jEgG:active {
   Can't use it globally since it destroys checkboxes in Firefox
 */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-  .style__toggleAll___iL85w,
-  .style__normal___d-dTj li .style__toggle___3E01W {
+  .style__toggleAll___32oUm,
+  .style__normal___B0urv li .style__toggle___2BC1l {
     background: none;
   }
 
-  .style__normal___d-dTj li .style__toggle___3E01W {
+  .style__normal___B0urv li .style__toggle___2BC1l {
     height: 40px;
   }
 
-  .style__toggleAll___iL85w {
+  .style__toggleAll___32oUm {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
   }
-}.style__wrapper___2Io1o {
+}.style__wrapper___2OxQ0 {
   padding: 0 20px;
   line-height: 2em;
 }
 
-.style__normal___18IRC {
+.style__normal___32_Ha {
   background: #fff;
   margin: 200px 0 40px 0;
   position: relative;
@@ -421,25 +421,25 @@ html .style__clearCompleted___2jEgG:active {
               0 25px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
-.style__normal___18IRC input::-webkit-input-placeholder {
+.style__normal___32_Ha input::-webkit-input-placeholder {
   font-style: italic;
   font-weight: 300;
   color: #e6e6e6;
 }
 
-.style__normal___18IRC input::-moz-placeholder {
+.style__normal___32_Ha input::-moz-placeholder {
   font-style: italic;
   font-weight: 300;
   color: #e6e6e6;
 }
 
-.style__normal___18IRC input::input-placeholder {
+.style__normal___32_Ha input::input-placeholder {
   font-style: italic;
   font-weight: 300;
   color: #e6e6e6;
 }
 
-.style__normal___18IRC h1 {
+.style__normal___32_Ha h1 {
   position: absolute;
   top: -155px;
   width: 100%;
@@ -453,7 +453,7 @@ html .style__clearCompleted___2jEgG:active {
   text-rendering: optimizeLegibility;
 }
 
-.style__normal___18IRC button {
+.style__normal___32_Ha button {
   margin: 0;
   padding: 0;
   border: 0;
@@ -469,32 +469,32 @@ html .style__clearCompleted___2jEgG:active {
   font-smoothing: antialiased;
 }
 
-.style__normal___18IRC button,
+.style__normal___32_Ha button,
 input[type="checkbox"] {
   outline: none;
 }
-.style__normal___2eBGt {
+.style__normal___ennnS {
   padding-top: 30px;
-}.style__normal___2vCc9 {
+}.style__normal___1m8Uy {
 
 }
 
-.style__title___2Sh_Z {
+.style__title___2kkGv {
   font-family: 'Open Sans';
   font-weight: 700;
   font-size: 30px;
   color: black;
 }
 
-.style__date___1k-zN {
+.style__date___1L62D {
   font-family: 'Open Sans';
   font-size: 15px;
   color: rgba(0,0,0,.44);
 }
 
-.style__content___1Bb26 {
+.style__content___39ZTH {
   font-family: 'lora';
-}.style__intro___KTRGA {
+}.style__intro___yZX23 {
   background-color: #2A2A2A;
   color: white;
   padding: 40px;
@@ -503,53 +503,50 @@ input[type="checkbox"] {
               0 25px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
-.style__intro___KTRGA .style__name___21l2P {
+.style__intro___yZX23 .style__name___1Rz-W {
   text-align: center;
   font-size: 20px;
   line-height: 35px;
   padding: 0 100px;
 }
 
-.style__intro___KTRGA .style__projects___Znknp {
+.style__intro___yZX23 .style__projects___Elduo {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
   padding-top: 40px;
-}.style__project___1ZYO2 {
+}.style__project___1umJK {
   padding: 0 40px;
   text-decoration: none;
   color: white;
 }
 
-.style__project___1ZYO2:hover {
+.style__project___1umJK:hover {
   color: #CD0554;
 }
 
-.style__project___1ZYO2 .icon {
+.style__project___1umJK .icon {
   font-size: 100px;
-}.style__project___2CgyR {
+}.style__project___3vXNG {
   padding: 0 40px;
   text-decoration: none;
   color: white;
 }
 
-.style__project___2CgyR:hover {
+.style__project___3vXNG:hover {
   color: #CD0554;
 }
 
-.style__project___2CgyR .icon {
+.style__project___3vXNG .icon {
   font-size: 100px;
-}.style__normal___3QOuM {
+}.style__normal___hv-au {
   background: #79838F;
   max-height: 50px;
   line-height: 50px;
@@ -562,7 +559,7 @@ input[type="checkbox"] {
               0 25px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
-.style__normal___3QOuM a {
+.style__normal___hv-au a {
   color: #ffffff;
   line-height: 50px;
   padding-left: 20px;
@@ -571,13 +568,13 @@ input[type="checkbox"] {
   font-weight: 700;
 }
 
-.style__normal___3QOuM a:hover {
+.style__normal___hv-au a:hover {
   color: #2A2A2A;
 }
 
-div.style__social___15Jg9 {
+div.style__social___2IM9n {
   display: inline-block;
-}.style__message-composer___1DCO3 {
+}.style__message-composer___i4Cla {
   box-sizing: border-box;
   font-family: inherit;
   font-size: 14px;
@@ -586,95 +583,95 @@ div.style__social___15Jg9 {
   margin: 20px 0 0;
   padding: 10px;
 }
-.style__message-list-item___XvxCW {
+.style__message-list-item___2mujk {
   list-style: none;
   padding: 12px 14px 14px;
 }
 
-.style__message-author-name___3IF-P {
+.style__message-author-name___3lr1t {
   color: #66c;
   float: left;
   font-size: 13px;
   margin: 0;
 }
 
-.style__message-time___V1fwF {
+.style__message-time___2cIxe {
   color: #aad;
   float: right;
   font-size: 12px;
 }
 
-.style__message-text___29PYP {
+.style__message-text___3a-oX {
   clear: both;
   font-size: 14px;
   padding-top: 10px;
 }
-.style__message-section___1WIrX {
+.style__message-section___7yk4R {
   float: right;
   width: 65%;
 }
 
-.style__message-thread-heading___fJAEL {
+.style__message-thread-heading___2bx3U {
   height: 40px;
   margin: 0;
 }
 
-.style__message-list___36aIa {
+.style__message-list___p2Fda {
   border: 1px solid #ccf;
   font-size: 16px;
   height: 400px;
   margin: 0;
   overflow-y: auto;
   padding: 0;
-}.style__thread-list-item___1ZUQF {
+}.style__thread-list-item___c6w6k {
   list-style: none;
   padding: 12px 14px 14px;
   border-bottom: 1px solid #ccc;
   cursor: pointer;
 }
 
-.style__thread-list-item___1ZUQF.style__active___2knOM,
-.style__thread-list___2FJ_j:hover .style__thread-list-item___1ZUQF.style__active___2knOM,
-.style__thread-list___2FJ_j:hover .style__thread-list-item___1ZUQF.style__active___2knOM:hover {
+.style__thread-list-item___c6w6k.style__active___3xKQm,
+.style__thread-list___2SNjG:hover .style__thread-list-item___c6w6k.style__active___3xKQm,
+.style__thread-list___2SNjG:hover .style__thread-list-item___c6w6k.style__active___3xKQm:hover {
   background-color: #efefff;
   cursor: default;
 }
 
-.style__thread-name___2h1Wz {
+.style__thread-name___qvO6C {
   color: #66c;
   float: left;
   font-size: 13px;
   margin: 0;
 }
 
-.style__thread-time___RSBy3 {
+.style__thread-time___3oAbX {
   color: #aad;
   float: right;
   font-size: 12px;
 }
 
-.style__thread-last-message___18tx4 {
+.style__thread-last-message___2KSYm {
   clear: both;
   font-size: 14px;
   padding-top: 10px;
-}.style__thread-section___dsXwR {
+}.style__thread-section___2O6HR {
   float: left;
   width: 32.5%;
 }
 
-.style__thread-count___B05xr {
+.style__thread-count___3qsdz {
   height: 40px;
   margin: 0;
 }
 
-.style__thread-list___1W2Lw {
+.style__thread-list___3UOcD {
   border: 1px solid #ccf;
   font-size: 16px;
   height: 400px;
   margin: 0;
   overflow-y: auto;
   padding: 0;
-}.style__chatapp___1Gb1S {
+}.style__chatapp___139Jm {
   font-family: 'Muli', 'Helvetica Neue', helvetica, arial;
   max-width: 760px;
   margin: 20px auto;

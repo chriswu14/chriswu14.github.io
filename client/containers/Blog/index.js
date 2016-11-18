@@ -7,7 +7,7 @@ import style from './style.css'
 
 import BlogSection from '../../components/Blog/BlogSection'
 
-export default class Blog extends Component {
+class Blog extends Component {
   componentDidMount() {
     this.props.actions.getBlogEntries()
   }

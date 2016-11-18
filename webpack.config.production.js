@@ -55,7 +55,7 @@ module.exports = {
   ],
   plugins: [
     new CopyWebpackPlugin([{ from: path.join(__dirname, '/client/static'), to: './static'}]),
-    new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.bundle.js'),
+    new webpack.optimize.CommonsChunkPlugin('vendor', 'lib.bundle.js'),
     new ExtractTextPlugin("style.css", {allChunks: true}),
    
     new webpack.DefinePlugin({
