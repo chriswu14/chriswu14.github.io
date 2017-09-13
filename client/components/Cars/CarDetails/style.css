@@ -1,0 +1,8 @@
+.normal :global(.box-row) {
+    text-align: center;
+    padding: 20px;
+}
+
+.normal :global(.box-row) img{
+    width: 300px;
+}
